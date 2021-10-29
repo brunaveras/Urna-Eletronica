@@ -13,7 +13,9 @@ function comecarEtapa() {
 
   let numeroHtml = '';
 
-  for(let i=0;i<etapa.numeros;i++) {
+  for (let i = 0; i < etapa.numeros; i++) {
+    if (i === 0) {
+    }
     numeroHtml += '<div class="numero"></div>';
   }
 
@@ -25,16 +27,29 @@ function comecarEtapa() {
   numeros.innerHTML = numeroHtml;
 }
 
-function atualizaInterface(){
+function atualizaInterface() {
 
 }
 
-function branco(n) {
-  alert("Clicou em "+n);
+function clicou(n) {
+  alert("Clicou em " + n)
+  let elNumero = document.querySelector('.numero.pisca');
+  if (elNumero !== null) {
+    elNumero.innerHTML = n;
+    numero = `${numero}${n}`;
+
+    elNumero.classList.remove('pisca');
+    elNumero.nextElementSibling.classList.add('pisca');
+  }
 }
-function branco () {
-  alert("Clicou em "+n);
+
+function branco() {
+  alert("Clicou em BRANCO!");
 }
-function corrige () {
-  alert("Clicou em "+n);
+function corrige() {
+  alert("Clicou em CORRIGE!");
 }
+function confirma() {
+  alert("Clicou em CONFIRMA!");
+}
+comecarEtapa();
