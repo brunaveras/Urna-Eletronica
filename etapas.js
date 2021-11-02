@@ -4,19 +4,19 @@ let etapas = [
     numeros: 5,
     candidatos: [
       {
-        numero: 38111,
-        nome: 'Bean',
-        partido: 'ENCANTO',
+        numero: '28196',
+        nome: 'Dagmar',
+        partido: 'DESENCANTO',
         fotos: [
-          { url:'12345.jpg', legenda: 'Vereador', small: false}
+          { url:'dagmar.jpg', legenda: 'Vereador', small: false}
         ]
       },
       {
-        numero: 12345,
-        nome: 'Luna',
-        partido: 'DESENCANTO',
+        numero: '19896',
+        nome: 'Tribore',
+        partido: 'ESPAÇO FINAL',
         fotos: [
-          { url:'48965.jpg', legenda: 'Vereador'}
+          { url:'tribore.jpg', legenda: 'Vereador'}
         ]
       },
     ]
@@ -26,23 +26,23 @@ let etapas = [
     numeros: 2,
     candidatos: [
       {
-        numero: 99,
-        nome: 'Elfo',
-        partido: 'Encanto',
-        vice: 'Luci',
+        numero: '71',
+        nome: 'Bean',
+        partido: 'DESENCANTO',
+        vice: 'Oona',
         fotos: [
-          {url:'26.jpg', legenda: 'Prefeito'},
-          {url:'26_2.jpg', legenda: 'Vice-Prefeito', small: true}
+          {url:'bean.jpg', legenda: 'Prefeito'},
+          {url:'oona.jpg', legenda: 'Vice-Prefeito', small: true}
         ]
       },
       {
-        numero: 84,
-        nome: 'Fulano',
-        partido: 'Desencanto',
-        vice: 'PADDING',
+        numero: '84',
+        nome: 'Garry',
+        partido: 'ESPAÇO FINAL',
+        vice: 'Mooncake',
         fotos: [
-          {url:'89.jpg', legenda: 'Prefeito'},
-          {url:'89_2.jpg', legenda: 'Vice-Prefeito', small:true}
+          {url:'garry.jpg', legenda: 'Prefeito'},
+          {url:'mooncake.jpg', legenda: 'Vice-Prefeito', small:true}
         ]
       },
     ]
